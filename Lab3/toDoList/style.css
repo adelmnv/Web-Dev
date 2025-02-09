@@ -1,0 +1,71 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+}
+header {
+  background-color: rgb(107, 202, 142);
+  color: #fff;
+  padding: 4px 8px;
+}
+header h2 {
+  margin-left: 40px;
+}
+.container {
+  background-color: rgb(178, 227, 168);
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 20px solid rgb(49, 108, 71);
+  width: 50%;
+  border-radius: 10px;
+  padding: 4px 8px;
+  text-align: center;
+}
+#input-task {
+  width: 60%;
+  padding: 4px 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+}
+.add-task-btn {
+  padding: 6px 30px;
+  margin-left: 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(141, 199, 127);
+  cursor: pointer;
+}
+.add-task-btn:hover {
+  color: #fff;
+  background-color: rgb(49, 108, 71);
+}
+.task-list {
+  list-style: none;
+  width: 80%;
+}
+.task-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 1px solid rgb(62, 87, 56);
+}
+li:last-child{
+    border-bottom: none;
+}
+.task {
+  flex-grow: 1;
+  text-align: left;
+  margin-left: 10px;
+}
+.complete-task {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.garbage {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
