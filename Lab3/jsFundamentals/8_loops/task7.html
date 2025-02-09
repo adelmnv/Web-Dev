@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        let n = prompt("To what n-th prime number print them? ")
+        main: for(let i = 2; i < n; i++){
+            for(let j = 2; j <= i ** 0.5; j++){
+                if(i % j == 0){
+                    continue main;
+                }
+            }
+            alert(i);
+        }
+    </script>
+</body>
+</html>
