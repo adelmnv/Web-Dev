@@ -1,0 +1,28 @@
+<section class="listing">
+  <img
+    class="listing-photo"
+    [src]="product.images[0]"
+    alt="Exterior photo of {{ product.name }}"
+    crossorigin
+  />
+  <h2 class="listing-heading">{{ product.name }}</h2>
+  <div class="listing-menu">
+    <div class="listing-rating">
+      <img src="star-icon.svg" alt="Star icon" width="20" height="20" />
+      <p>{{ product.rating.toFixed(1) }}</p>
+    </div>
+    <div class="listing-likes" (click)="like()">
+      <img src="likes.png" alt="Like icon" width="20" height="20" />
+      <p>{{ product.likes }}</p>
+    </div>
+    <div class="listing-delete" (click)="removeProduct()">
+      <img src="delete.png" alt="Delete icon" width="20" height="20" />
+    </div>
+  </div>
+  <div class="listing-links">
+    <a class="listing-link details" [routerLink]="['details', product.id]">
+      Learn More
+    </a>
+    <p class="listing-link share" (click)="shareOnWhatsApp()">Share</p>
+  </div>
+</section>

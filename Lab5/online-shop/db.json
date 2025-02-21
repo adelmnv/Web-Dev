@@ -1,0 +1,379 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "smartphones",
+      "products": [
+        {
+          "id": 0,
+          "name": "Smartphone Apple iPhone 13 128Gb Midnight",
+          "categoryId":0,
+          "description": "The Apple iPhone 13 has received a 6.1-inch Super Retina XDR display, which features incredibly high pixel density — photos, videos, and text look strikingly clear. And thanks to the reduced True Depth camera area, there is now more image space on the display. Apple has developed a completely new camera layout and turned the lenses 45 degrees. Thanks to this, the best dual camera system with an enlarged wide-angle camera array fits inside the case. In addition, space was freed up for an optical image stabilization system with a matrix shift, and the speed of the matrix on an ultra-wide-angle camera increased.",
+          "rating": 4.9,
+          "likes": 12,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/252945_1.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/252945_2.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/252945_3.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/apple-iphone-13-128gb-chernyi-102298404/"
+        },
+        {
+          "id": 1,
+          "name": "Smartphone Apple iPhone 16 Pro Max 8/256GB Desert Titanium",
+          "categoryId":0,
+          "description": "The latest iPhone 16 Pro Max with an A18Pro processor, an advanced 48 MP camera and a ProMotion display. It has incredible performance and IP68 moisture protection.",
+          "rating": 5.0,
+          "likes": 20,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/284651.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/284651_1.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/284651_2.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/apple-iphone-16-pro-max-256gb-zolotistyi-123890547/"
+        },
+        {
+          "id": 2,
+          "name": "Smartphone Samsung Galaxy A16 128GB Black",
+          "categoryId":0,
+          "description": "The Samsung Galaxy A16 is a smartphone with a 6.7-inch display, a 50 MP main camera and a 5,000 mAh battery. It has a stylish design and high autonomy.",
+          "rating": 4.0,
+          "likes": 3,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/800/800/smartfon_gsm_samsung_galaxy_a16_6_128_6_7_50_black_sm_a165fzkgskz_286701_main.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/smartfon_gsm_samsung_galaxy_a16_6_128_6_7_50_black_sm_a165fzkgskz_286701_04.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/smartfon_gsm_samsung_galaxy_a16_6_128_6_7_50_black_sm_a165fzkgskz_286701_07.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/samsung-galaxy-a16-6-gb-128-gb-chernyi-130609900/"
+        },
+        {
+          "id": 3,
+          "name": "Smartphone Samsung Galaxy S25 12/256GB Navy",
+          "categoryId":0,
+          "description": "Samsung Galaxy S25 12/256GB Navy is a powerful flagship with 12 GB of RAM and 256 GB of internal memory, equipped with a bright AMOLED display, an advanced camera and a powerful processor for smooth operation. The elegant Navy-colored case gives the device a stylish and modern look.",
+          "rating": 5.0,
+          "likes": 5,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/smartfon_gsm_samsung_galaxy_s25_122566250_navy_sm_s931bdbcskz_288438_01.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/smartfon_gsm_samsung_galaxy_s25_122566250_navy_sm_s931bdbcskz_288438_02.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/smartfon_gsm_samsung_galaxy_s25_122566250_navy_sm_s931bdbcskz_288438_03.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/samsung-galaxy-s25-ultra-5g-12-gb-256-gb-goluboi-133434647/"
+        },
+        {
+          "id": 4,
+          "name": "Smartphone Apple iPhone 15 Plus 6/256GB Blue",
+          "categoryId":0,
+          "description": "Apple iPhone 15 Plus 6/256GB Blue is a stylish and powerful smartphone with a large 6.7—inch display, improved camera and high performance. A capacious battery and 256 GB of memory ensure comfortable use without compromise.",
+          "rating": 5.0,
+          "likes": 20,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/smartfon_gsm_apple_iphone_15_plus_256gb_62566748_blue_mu1f3_274395_1.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/smartfon_gsm_apple_iphone_15_plus_256gb_62566748_blue_mu1f3_274395_2.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/smartfon_gsm_apple_iphone_15_plus_256gb_62566748_blue_mu1f3_274395_3.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/apple-iphone-15-plus-256gb-goluboi-113138050/"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "headphones",
+      "products": [
+        {
+          "id": 5,
+          "name": "Apple AirPods 4 MXP63ZE/A Headphones",
+          "categoryId":1,
+          "description": "The Apple AirPods 4 MXP63ZE/A offer high-quality sound with enhanced noise cancellation and improved battery life. Designed for seamless connectivity with Apple devices, they provide an immersive audio experience in a sleek, comfortable design.",
+          "rating": 4.9,
+          "likes": 12,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/284730_1.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/284730_2.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/284730_3.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/apple-airpods-4-active-noise-cancellation-belyi-124333921/"
+        },
+        {
+          "id": 6,
+          "name": "Marshall Bluetooth Major IV",
+          "categoryId":1,
+          "description": "Unleash legendary Marshall tone with the Major IV. This compact combo amplifier delivers 5 watts of pure valve power, perfect for practicing at home or recording. With two channels, classic gain controls, and an onboard reverb, you can dial in a wide range of iconic Marshall sounds.",
+          "rating": 5.0,
+          "likes": 10,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/naushniki_marshall_major_5_black_287796_01.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/naushniki_marshall_major_5_black_287796_02.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/naushniki_marshall_major_5_black_287796_03.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/marshall-major-iv-chernyi-102138144/"
+        },
+        {
+          "id": 7,
+          "name": "Samsung Galaxy Buds FE TWS",
+          "categoryId":1,
+          "description": "The Samsung Galaxy Buds FE TWS deliver rich sound with deep bass and active noise cancellation for an immersive listening experience. With a comfortable fit and seamless integration with Samsung devices, they offer reliable performance for everyday use.",
+          "rating": 4.0,
+          "likes": 15,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/naushniki_vstavnye_samsung_bluetooth_galaxy_buds_fe_tws_graphite_sm_r400nzaacis_275826_1.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/naushniki_vstavnye_samsung_bluetooth_galaxy_buds_fe_tws_graphite_sm_r400nzaacis_275826_2.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/naushniki_vstavnye_samsung_bluetooth_galaxy_buds_fe_tws_graphite_sm_r400nzaacis_275826_3.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/samsung-galaxy-buds-fe-seryi-114021918/"
+        },
+        {
+          "id": 8,
+          "name": "AirPods Max 2 Midnight",
+          "categoryId":1,
+          "description": "The Apple AirPods Max 2 Midnight are premium wireless headphones featuring enhanced active noise cancellation and immersive spatial audio. With an elegant design, long battery life, and superior sound quality, they provide an exceptional listening experience.",
+          "rating": 5.0,
+          "likes": 5,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/284732_1.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/284732_2.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/284732_3.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/apple-airpods-max-2-cherno-sinii-128622804/"
+        },
+        {
+          "id": 9,
+          "name": "JBL Bluetooth Tune 520",
+          "categoryId":1,
+          "description": "The JBL Tune 520 Bluetooth headphones deliver powerful JBL Pure Bass sound with wireless convenience. Featuring a lightweight design, long battery life, and seamless connectivity, they provide a comfortable and immersive listening experience.",
+          "rating": 5.0,
+          "likes": 15,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/naushniki_nakladnye_jbl_bluetooth_tune_520_black_272713_1.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/naushniki_nakladnye_jbl_bluetooth_tune_520_black_272713_2.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/naushniki_nakladnye_jbl_bluetooth_tune_520_black_272713_3.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/jbl-tune-520bt-chernyi-110103473/"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "powerbanks",
+      "products": [
+        {
+          "id": 10,
+          "name": "Xiaomi Power Bank 10000mAh (P15ZM)",
+          "categoryId":2,
+          "description": "The Xiaomi Power Bank 10000mAh (P15ZM) is a compact and reliable portable charger with fast charging capabilities. Its high-capacity battery ensures multiple device charges, making it perfect for on-the-go use.",
+          "rating": 4.9,
+          "likes": 12,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/287189_1.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/xiaomi-p15zm-integrated-cable-10000-mach-bezhevyi-117014451/"
+        },
+        {
+          "id": 11,
+          "name": "UGREEN 20000mAh PD 20W Power Bank (25683)",
+          "categoryId":2,
+          "description": "The UGREEN 20000mAh PD 20W Power Bank (25683) offers fast and efficient charging with Power Delivery (PD) support. Its high capacity ensures multiple charges for your devices, making it an ideal companion for travel and daily use.",
+          "rating": 5.0,
+          "likes": 20,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/vneshniy_akkumulyator_ugreen_20000mah_pd_20w_power_bank_25683_286422_01.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/ugreen-25683-20000-mach-chernyi-130737836/"
+        },
+        {
+          "id": 12,
+          "name": "Anker Mag-Go, 5000Mah, White (A1611G21)",
+          "categoryId":2,
+          "description": "The Anker Mag-Go 5000mAh (A1611G21) is a compact and lightweight magnetic power bank designed for seamless wireless charging. With strong MagSafe compatibility and a sleek white design, it provides convenient on-the-go power for your devices.",
+          "rating": 4.0,
+          "likes": 3,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/vneshnij_akkumulyator_anker_mag_go_5000mah_white_a1611g21_272976_1.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/vneshnij_akkumulyator_anker_mag_go_5000mah_white_a1611g21_272976_2.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/vneshnij_akkumulyator_anker_mag_go_5000mah_white_a1611g21_272976_3.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/anker-mag-go-a1611g21-5000-mach-belyi-112430015/"
+        },
+        {
+          "id": 13,
+          "name": "Olmio QM-06, 5000mAh, 20W PD, 15W wireless",
+          "categoryId":2,
+          "description": "The Olmio QM-06 5000mAh power bank offers 20W PD fast charging and 15W wireless charging in a compact design. With its stylish green finish, it provides versatile and efficient power on the go.",
+          "rating": 5.0,
+          "likes": 5,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/vneshnij_akkumulyator_olmio_qm_06_5000mah_20w_pd_15w_wireless_green_46622_282959_1b.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/vneshnij_akkumulyator_olmio_qm_06_5000mah_20w_pd_15w_wireless_green_46622_282959_1.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/olmio-qm-06-5000-mach-belyi-121659116/"
+        },
+        {
+          "id": 14,
+          "name": "UGREEN 5000mAh with Built-in USB-C Connector & Kickstand",
+          "categoryId":2,
+          "description": "The UGREEN 5000mAh 20W Power Bank features a built-in USB-C connector and a convenient kickstand for hands-free use. Its compact design and fast charging capabilities make it a perfect travel companion for quick and efficient power on the go.",
+          "rating": 5.0,
+          "likes": 20,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/800/800/vneshniy_akkumulyator_ugreen_5000mah_20w_1_usb_c_power_bank_with_built_in_usb_c_connector_kickstand_286420_01.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/800/800/vneshniy_akkumulyator_ugreen_5000mah_20w_1_usb_c_power_bank_with_built_in_usb_c_connector_kickstand_286420_02.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/800/800/vneshniy_akkumulyator_ugreen_5000mah_20w_1_usb_c_power_bank_with_built_in_usb_c_connector_kickstand_286420_03.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/ugreen-power-bank-with-built-in-usb-c-connector-kickstand-35338-5000-mach-seryi-130737677/?c=750000000"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "tablets",
+      "products": [
+        {
+          "id": 15,
+          "name": "Apple iPad 10.9 2022 Wi-Fi 64GB Silver (MPQ03)",
+          "categoryId":3,
+          "description": "The Apple iPad 10.9 (2022) Wi-Fi 64GB Silver (MPQ03) combines a sleek design with a powerful A14 Bionic chip for smooth performance. Featuring a vibrant Liquid Retina display and iPadOS enhancements, it’s perfect for work, creativity, and entertainment.",
+          "rating": 4.9,
+          "likes": 12,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/800/800/286894_1.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/800/800/286894_2.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/800/800/286894_3.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/apple-ipad-2022-10-9-wi-fi-10-9-djuim-4-gb-64-gb-serebristyi-107264764/?c=750000000"
+        },
+        {
+          "id": 16,
+          "name": "Samsung Tab A9+ 128Gb/8Gb WiFi",
+          "categoryId":3,
+          "description": "The Samsung Galaxy Tab A9+ (SM-X216BZAESKZ) features a 10.9 display, 5G connectivity, and 128GB storage with 8GB RAM for smooth multitasking. Its sleek graphite design, powerful performance, and immersive entertainment features make it a great choice for work and play.",
+          "rating": 5.0,
+          "likes": 10,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/planshet_samsung_tab_a9_128gb_graphite_sm_x216bzaeskz_274670_1.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/planshet_samsung_tab_a9_128gb_graphite_sm_x216bzaeskz_274670_2.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/planshet_samsung_tab_a9_128gb_graphite_sm_x216bzaeskz_274670_3.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/samsung-galaxy-tab-a9-5g-11-djuim-8-gb-128-gb-serebristyi-114175605/?c=750000000"
+        },
+        {
+          "id": 17,
+          "name": " Redmi Pad SE 11 128/4GB Graphite Gray",
+          "categoryId":3,
+          "description": "The Redmi Pad SE 11 (128GB/4GB) in Graphite Gray offers a smooth visual experience with its large display and powerful battery. With ample storage and a sleek design, it's perfect for entertainment, productivity, and everyday use.",
+          "rating": 4.0,
+          "likes": 15,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/800/800/planshet_11_redmi_pad_se_128gb4gb_wifi_graphite_gray_23073rpbfg_4128_gray_273664_1.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/800/800/planshet_11_redmi_pad_se_128gb4gb_wifi_graphite_gray_23073rpbfg_4128_gray_273664_2.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/800/800/planshet_11_redmi_pad_se_128gb4gb_wifi_graphite_gray_23073rpbfg_4128_gray_273664_3.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/xiaomi-redmi-pad-se-11-djuim-4-gb-128-gb-seryi-112442987/?c=750000000"
+        },
+        {
+          "id": 18,
+          "name": "Lenovo Tab M11 11 128GB Wi-Fi ZADA0139RU",
+          "categoryId":3,
+          "description": "The Lenovo Tab M11 11 (ZADA0139RU) features a vibrant 11-inch display, 128GB of storage, and Wi-Fi connectivity for seamless entertainment and productivity. Its sleek design and long battery life make it a great choice for everyday use.",
+          "rating": 5.0,
+          "likes": 5,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/planshet_lenovo_tb330fu_acc_4g128glg_ru_pen_zada0139ru_282941_1.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/planshet_lenovo_tb330fu_acc_4g128glg_ru_pen_zada0139ru_282941_2.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/planshet_lenovo_tb330fu_acc_4g128glg_ru_pen_zada0139ru_282941_3.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/lenovo-tab-m11-zada0139ru-11-djuim-4-gb-128-gb-seryi-122921733/?c=750000000"
+        },
+        {
+          "id": 19,
+          "name": "Honor Pad X9 11.5 2023 128Gb WiFi (5301AGJC)",
+          "categoryId":3,
+          "description": "The Honor Pad X9 11.5 (2023) WiFi (5301AGJC) features a stunning 11.5-inch display, 128GB storage, and immersive audio for a great entertainment experience. With a sleek design and smooth performance, it's perfect for work, study, and leisure.",
+          "rating": 5.0,
+          "likes": 15,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/800/800/planshet_115_honor_pad_x9_128gb4gb_wifi_space_gray_5301agjc_280947_5.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/800/800/planshet_115_honor_pad_x9_128gb4gb_wifi_space_gray_5301agjc_280947_4.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/800/800/planshet_115_honor_pad_x9_128gb4gb_wifi_space_gray_5301agjc_280947_3.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/honor-pad-x9-11-5-djuim-4-gb-128-gb-seryi-118137136/?c=750000000"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "smartwatches",
+      "products": [
+        {
+          "id": 20,
+          "name": "HUAWEI Watch Fit 3 Black",
+          "categoryId":4,
+          "description": "The HUAWEI Watch Fit 3 Black combines a sleek, lightweight design with advanced fitness tracking features. With a vibrant display, long battery life, and smart health monitoring, it’s the perfect companion for an active lifestyle.",
+          "rating": 4.9,
+          "likes": 12,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/smart_chasy_huawei_watch_fit_3_black_280575_1.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/smart_chasy_huawei_watch_fit_3_black_280575_2.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/smart_chasy_huawei_watch_fit_3_black_280575_3.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/huawei-watch-fit-3-chernyi-119668941/?c=750000000"
+        },
+        {
+          "id": 21,
+          "name": " Xiaomi Redmi Watch 5 Active",
+          "categoryId":4,
+          "description": "The Xiaomi Redmi Watch 5 Active features a sleek design, a vibrant display, and comprehensive health tracking. With long battery life and multiple sports modes, it’s a perfect companion for fitness and daily use.",
+          "rating": 5.0,
+          "likes": 10,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/285975_1.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/285975_2.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/285975_3.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/xiaomi-redmi-watch-5-active-51-mm-serebristyi-seryi-123879450/?c=750000000"
+        },
+        {
+          "id": 22,
+          "name": "Samsung Galaxy Watch7 44mm (SM-L310NZGACIS)",
+          "categoryId":4,
+          "description": "The Samsung Galaxy Watch7 44mm (SM-L310NZGACIS) offers a sleek design, advanced health tracking, and powerful performance. With a vibrant display, long battery life, and seamless integration with Samsung devices, it’s perfect for both fitness and everyday use.",
+          "rating": 4.0,
+          "likes": 15,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/smart_chasy_samsung_galaxy_watch7_44mm_sm_l310nzgacis_282163_1.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/smart_chasy_samsung_galaxy_watch7_44mm_sm_l310nzgacis_282163_2.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/smart_chasy_samsung_galaxy_watch7_44mm_sm_l310nzgacis_282163_3.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/samsung-galaxy-watch7-44-mm-grafitovyi-zelenyi-121760416/?c=750000000"
+        },
+        {
+          "id": 23,
+          "name": "Apple Watch Series 10 GPS 42mm",
+          "categoryId":4,
+          "description": "The Apple Watch Series 10 GPS 42mm offers a sleek design, advanced health and fitness tracking, and a vibrant display. With powerful performance and seamless Apple ecosystem integration, it's the perfect companion for an active lifestyle.",
+          "rating": 5.0,
+          "likes": 5,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/smart_chasy_apple_watch_series_10_gps_42mm_rose_gold_aluminium_case_light_blush_sport_band_sm_284773_01.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/smart_chasy_apple_watch_series_10_gps_42mm_rose_gold_aluminium_case_light_blush_sport_band_sm_284773_02.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/smart_chasy_apple_watch_series_10_gps_42mm_rose_gold_aluminium_case_light_blush_sport_band_sm_284773_03.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/apple-watch-series-10-s-m-42-mm-zolotistyi-belyi-128574070/?c=750000000"
+        },
+        {
+          "id": 24,
+          "name": "Xiaomi, Redmi Watch 5 Lite",
+          "categoryId":4,
+          "description": "The Xiaomi Redmi Watch 5 Lite features a lightweight design, a bright display, and essential health tracking features. With long battery life and multiple sports modes, it’s a great choice for everyday fitness and convenience.",
+          "rating": 5.0,
+          "likes": 15,
+          "images": [
+            "https://api.technodom.kz/f3/api/v1/images/285978_2a.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/285978_1.jpg",
+            "https://api.technodom.kz/f3/api/v1/images/285978_3.jpg"
+          ],
+          "link": "https://kaspi.kz/shop/p/xiaomi-redmi-watch-5-lite-50-mm-zolotistyi-belyi-128392162/?c=750000000"
+        }
+      ]
+    }
+  ]
+}

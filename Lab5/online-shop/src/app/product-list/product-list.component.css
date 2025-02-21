@@ -1,0 +1,18 @@
+.menu {
+  display: grid;
+  column-gap: 14px;
+  row-gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 400px));
+  margin-top: 50px;
+  justify-content: space-around;
+}
+@media (min-width: 500px) and (max-width: 768px) {
+  .menu {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 499px) {
+  .menu {
+    grid-template-columns: 1fr;
+  }
+}

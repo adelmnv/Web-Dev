@@ -1,0 +1,31 @@
+<article *ngIf="product">
+  <div class="image-container">
+    <button class="prev-btn" (click)="prevImage()">&#10094;</button>
+    <img
+      class="listing-photo"
+      [src]="product?.images?.[currentImageIndex]"
+      alt="Photo of {{ product?.name }}"
+      crossorigin
+    />
+    <button class="next-btn" (click)="nextImage()">&#10095;</button>
+  </div>
+  <section class="listing-description">
+    <h2 class="listing-heading">{{ product?.name }}</h2>
+    <div class="listing-rating" *ngIf="product?.rating !== undefined">
+      <img src="star-icon.svg" alt="Star icon" width="25" height="25" />
+      <p>{{ product?.rating?.toFixed(1) }}</p>
+    </div>
+    <div class="listing-likes" *ngIf="product?.likes !== undefined" (click)="like()">
+      <img src="likes.png" alt="Star icon" width="25" height="25" />
+      <p>{{ product?.likes }}</p>
+    </div>
+  </section>
+  <section class="listing-features" *ngIf="product?.description">
+    <h2 class="section-heading">{{ product.name }}</h2>
+    <p>{{ product.description }}</p>
+  </section>
+  <section class="listing-buttons" *ngIf="product?.link">
+    <a href="{{product.link}}" target="_blank" class="kaspi">Kaspi</a>
+    <button (click)="shareOnWhatsApp()" class="share">Share</button>
+  </section>
+</article>

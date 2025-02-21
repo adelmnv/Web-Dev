@@ -1,0 +1,7 @@
+<section class="menu">
+  <app-product
+    *ngFor="let product of productList"
+    [product]="product"
+    (deleteProduct)="deleteProduct(product.id)"
+  ></app-product>
+</section>

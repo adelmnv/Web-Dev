@@ -1,0 +1,6 @@
+<section class="menu">
+  <ul class="category-list">
+    <li *ngFor="let category of categoryList">
+      <a [routerLink]="['categories', category.id]">{{ category.name }}</a></li>
+  </ul>
+</section>

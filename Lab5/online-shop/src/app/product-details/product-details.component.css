@@ -1,0 +1,93 @@
+.image-container {
+  position: relative;
+  width: 40%;
+  float: right;
+}
+
+.listing-photo {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+  display: block;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.prev-btn {
+  left: 10px;
+}
+.next-btn {
+  right: 10px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background: var(--primary-color);
+}
+.listing-heading {
+  font-size: 48pt;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.listing-rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 20px 20px 20px;
+  font-size: 24pt;
+  margin-bottom: 15px;
+}
+.listing-likes {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 20px 20px 20px;
+  font-size: 24pt;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.listing-features > .section-heading {
+  color: var(--secondary-color);
+  font-size: 24pt;
+  margin-bottom: 15px;
+}
+.listing-features {
+  margin-bottom: 20px;
+}
+.listing-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 100px;
+}
+.kaspi{
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 12pt;
+    text-decoration: none;
+}
+.share{
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 12pt;
+    text-decoration: none;
+    background-color: var(--primary-color);
+}
