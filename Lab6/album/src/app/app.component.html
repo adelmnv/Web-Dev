@@ -1,0 +1,11 @@
+<main>
+  <header>
+    <img class="header-logo" src="album.png" alt="logo" aria-hidden="true" />
+    <a [routerLink]="['home']">Home</a>
+    <a [routerLink]="['about']">About</a>
+    <a [routerLink]="['albums']">Albums</a>
+  </header>
+  <section class="content">
+    <router-outlet></router-outlet>
+  </section>
+</main>

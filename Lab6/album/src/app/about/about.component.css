@@ -1,0 +1,56 @@
+.about-container {
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  width: 50%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.about-container h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.contact-section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.contact-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-section li {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.contact-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
