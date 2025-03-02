@@ -1,1 +1,71 @@
-<p>albums works!</p>
+<div class="menu">
+  <h1>Our Album Collection</h1>
+  <button class="add-btn" (click)="showMenu()">Add New Album</button>
+</div>
+
+<div class="menu-container" [hidden]="!isMenuVisible">
+  <form (submit)="createAlbum($event)">
+    <label>Album Name</label>
+    <input
+      [(ngModel)]="newAlbumName"
+      name="albumName"
+      class="modal-input"
+      placeholder="Enter album name"
+      required
+    />
+    <label>Description</label>
+    <input
+      [(ngModel)]="newAlbumDescription"
+      name="albumDescription"
+      class="modal-input"
+      placeholder="Enter album description"
+      required
+    />
+    <label>Number of Photos</label>
+    <input
+      [(ngModel)]="newAlbumPhotos"
+      name="albumPhotoCount"
+      class="modal-input"
+      type="number"
+      placeholder="Enter number of photos"
+      required
+    />
+    <div *ngFor="let i of [].constructor(newAlbumPhotos); let index = index">
+      <label>Photo {{ index + 1 }} URL</label>
+      <input
+        [(ngModel)]="newAlbumPhotoUrls[index]"
+        name="photoUrl{{ index }}"
+        class="modal-input"
+        placeholder="Enter photo URL"
+        required
+      />
+    </div>
+
+    <div class="modal-buttons">
+      <button type="button" class="modal-button cancel" (click)="closeMenu()">
+        Cancel
+      </button>
+      <button type="submit" class="modal-button create">Create</button>
+    </div>
+  </form>
+</div>
+
+<div *ngIf="loaded; else loadingBlock" class="container">
+  <div *ngFor="let album of albums" class="listing">
+    <img
+      class="listing-photo"
+      [src]="album.photoUrls[0]"
+      alt="Exterior photo of {{ album.title }}"
+      crossorigin
+    />
+    <h2 class="listing-heading">{{ album.title }}</h2>
+    <div class="listing-menu">
+      <a class="listing-link details" [routerLink]="[album.id]"> Learn More </a>
+      <div class="listing-delete" (click)="removeAlbum(album.id)">
+        <img src="delete.png" alt="Delete icon" width="20" height="20" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #loadingBlock> Albums are loading... </ng-template>

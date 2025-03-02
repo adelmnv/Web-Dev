@@ -1,1 +1,26 @@
-<p>album-details works!</p>
+<button [routerLink]="['/albums']" class="return-btn">Return</button>
+<div *ngIf="album as loadedAlbum" class="album-container">
+  <div class="album-card">
+    <div class="name-set">
+      <h2>{{ loadedAlbum.title }}</h2>
+      <label>Album Title</label>
+      <input
+        [(ngModel)]="newAlbumName"
+        class="album-input"
+        placeholder="Album Title"
+      />
+      <button (click)="updateAlbum(loadedAlbum)" class="save-btn">Save</button>
+    </div>
+    <h3 class="album-description">{{ loadedAlbum.description }}</h3>
+    <img
+      *ngIf="loadedAlbum.photoUrls?.length"
+      [src]="loadedAlbum.photoUrls[0]"
+      class="album-photo"
+      alt="Album Photo"
+    />
+    <a [routerLink]="['/albums', loadedAlbum.id, 'photos']" class="album-link"
+      >View Photos</a
+    >
+  </div>
+</div>
+<div *ngIf="!album" class="loading">Loading...</div>
