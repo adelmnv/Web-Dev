@@ -18,7 +18,7 @@ class Vacancy(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField(blank=True, null=True)
     salary = models.FloatField()
-    company = models.ForeignKey(Company, on_delete=models.CASCADE, related_name='vacancies')  # Added related_name
+    company = models.ForeignKey(Company, on_delete=models.CASCADE, related_name='vacancies')
 
     class Meta:
         verbose_name = 'Vacancy'
