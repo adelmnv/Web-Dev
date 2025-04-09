@@ -1,0 +1,59 @@
+.company-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.company-list {
+  list-style: none;
+  padding: 0;
+}
+
+.company-item {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+.company-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.company-name {
+  font-size: 1.5em;
+  color: #007bff;
+  margin: 0 0 10px;
+}
+
+.company-description {
+  color: #555;
+  margin: 0 0 10px;
+}
+
+.company-location {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.see-vacancies-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.see-vacancies-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}

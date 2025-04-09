@@ -1,0 +1,15 @@
+<div class="vacancy-list-container">
+  <h1 class="title">Vacancies for {{company_name}}</h1>
+  <ul *ngIf="loaded; else loadingBlock" class="vacancy-list">
+    <li *ngFor="let vacancy of vacancies" class="vacancy-item">
+      <h2 class="vacancy-title">{{ vacancy.name }}</h2>
+      <p class="vacancy-description">
+        {{ vacancy.description || "No description available" }}
+      </p>
+      <p class="vacancy-salary">
+        <strong>Salary:</strong> {{ vacancy.salary || "Not specified" }}
+      </p>
+    </li>
+  </ul>
+</div>
+<ng-template #loadingBlock> Vacancies are loading... </ng-template>

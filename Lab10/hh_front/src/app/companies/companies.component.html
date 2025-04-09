@@ -1,0 +1,22 @@
+<div class="company-list-container">
+  <h1 class="title">Companies</h1>
+  <ul *ngIf="loaded; else loadingBlock" class="company-list">
+    <li *ngFor="let company of companies" class="company-item">
+      <h2 class="company-name">{{ company.name }}</h2>
+      <p class="company-description">
+        {{ company.description || "No description available" }}
+      </p>
+      <p class="company-location">
+        <strong>City:</strong> {{ company.city }} | <strong>Address:</strong>
+        {{ company.address || "N/A" }}
+      </p>
+      <a
+        [routerLink]="['/companies', company.id, 'vacancies']"
+        class="see-vacancies-link"
+      >
+        See Vacancies
+      </a>
+    </li>
+  </ul>
+</div>
+<ng-template #loadingBlock> Companies are loading... </ng-template>
